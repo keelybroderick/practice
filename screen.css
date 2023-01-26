@@ -4,6 +4,7 @@ body {
     background: #fff;
     font-family: Helvetica, sans-serif;
     border-top: 15px solid #424242;
+    border-bottom: 15px solid #424242;
     margin: 0;
     color: #424242;
 }
@@ -27,9 +28,37 @@ main {
 .details section {
     flex-grow: 1;
     flex-basis: 0;
-    background: #E9EAEC;
+    background: #eee;
+    padding: 25px
     border-radius: 20px;
     margin-top: 25px;
+}
+
+.details section.with-code{
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    background-image: url('images/h-logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center left;
+    font-size: 3rem;
+    padding-left: 55px;
+    margin: 100px 0 25px 0;
+}
+
+h2{
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4rem;
 }
 
 .details section p {
@@ -38,10 +67,6 @@ main {
 
 .details section h2 {
     margin: 25px;
-}
-
-.details section.with-code{
-    padding: 0;
 }
 
 div.code-html {
